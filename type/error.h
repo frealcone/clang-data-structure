@@ -6,7 +6,7 @@
 
 #include "type.h"
 
-struct data_st_error
+struct error_st
 {
     u8_t err_id;   // ID of this type of error
     char *err_msg; // Description of this error
